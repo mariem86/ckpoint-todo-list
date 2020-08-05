@@ -1,0 +1,69 @@
+
+
+* {
+  box-sizing: border-box;
+  
+}
+h1{
+  color:black;
+  text-align: center; 
+  font-size: 50px;
+  background-color: lightslategray;
+ 
+
+}
+ul {
+ 
+    background: #d6dadf;
+    padding: 20px;
+ }
+ ul li {
+  background: #dfe4eb;
+  margin: 5px;
+ }
+ 
+input {
+ 
+  margin: 0;
+  border: gray;
+  border: radius 0;
+  width: 75%;
+  padding: 8px;
+  float: left;
+  font-size: 15px;
+}
+.btn-edit{
+
+  position: absolute;
+ right: 20px;
+margin-top: -25px;
+ color: #cc1786; 
+ background-color: black;
+}
+
+.btn-remove{
+  position: absolute;
+  right: -4px ;
+  color: #cc1786; 
+  background-color: black;
+}
+.addBtn {
+  padding: 5px;
+  width: 25%;
+  background: #cc1786;
+  color: rgb(124, 75, 75);
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+
+
+
